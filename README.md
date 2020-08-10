@@ -1,2 +1,16 @@
-# stock-analysis
-Module 2
+**#Stocks for Steve 
+## stock-analysis
+###Challenge 
+
+
+**##The Purpose**
+The rational of this analysis is to explore the data set of Green stocks for the purpose of investment. Through this, I have provided historical data pertaining to volume and performance of 11 stocks analyzed over the course of two years. The client, Steve, has been tasked with exploring stock options in green energy for his client, who happen to be his parents. Due to personal connections and attachments with the name, his parents are particularly interested in purchasing a green stock by the name of "DQ Analysis." His parents want to invest heavily in this stock, but Steve wants and is requesting additonal information and research on the performance of DQ over the time frame of the years, 2017-2018. Steve wants to ensure this has the best return value for his parents before making a significant stock purchase. In addition to DQ, Steve wants to explore other possible Green Stocks to see how their volume and performance compare to those of DQ. Through this report, Steve will obtain the necessary information to advise his clients, aka, his parents, on which stocks showed the greatest value over the course of two years. 
+
+**##The Results**
+To obtain the desired information for the client, I began by closely analyzing the data points presented in the years 2017 and 2018. I had data about the daily performance of each stock. I wrote a macro in VBA that enabled me to find the starting and ending price of each stock, and to calculate the performance of each stock for each year. Through the help of looping I was able to calculate the total daily volume of stocks traded for each year. The results of this analysis can be found in a table and two charts I have included.   The first chart shows how the total volume compared in the two years(See chart in Github entitled, Total Daily Volume of Green Stocks 2017-2018). The data from the macro procedure is summarized in the chart entitled, Total Daily Volume and Performance for Green Stocks. Overall the data showed in the tables and charts that one stock out of eleven referenced performed poorly in 2017. In 2018, the data showed, a different story: only two out of eleven performed positively. This can be seen in the visualization of chart, "Percentage Return Green Stocks 2017-2018." The stock of special interest to Steve's client showed a nearly 200 percent return in 2017, but nearly a 63 percent loss in 2018. Since Steve desired to learn about the performance of other green stocks to show his client, I graphed total volume for each stock and overall performance. Through the analysis, charts show that the total daily volume for all of the stocks combined did not vary much from year to year (3.17 billion in 2017, compared to 3.31 billion in 2018), but the total daily volume of individual stocks varied a great deal from year to year. For example, the DQ stock that the client was interested in traded only 36 million shares (rounded) in 2017, but 108 million shares were traded in 2018. In order to ensure the validity of our data, the next step was to execute run times between the original and refactored scripts. When this was done the run time changed from the original time of 63968.52 to 54417.91 after refactoring. 
+
+**##The Summary**
+In summary, the method of refactoring saves run time on the macro code, and it enables the existing code to be more undertandable, cleaner and easier to identify errors. Refactoring enables a data analyst to take the original, existing code and improve upon it while preserving its functionality. 
+
+
+
